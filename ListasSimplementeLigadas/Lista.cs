@@ -28,12 +28,6 @@ namespace ListasSimplementeLigadas
 
         public bool EstaVacio() 
         {
-            //if (_nodoInicial.Siguiente == null)
-            //{
-            //    return true;
-            //}
-
-            //aqui se esta regresando el resultado de la operacion
             return (_nodoInicial.Siguiente == null); 
         }
 
