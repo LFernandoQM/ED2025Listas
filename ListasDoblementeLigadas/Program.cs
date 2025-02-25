@@ -4,7 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ListaDoble lista = new ListaDoble();
+
+            lista.Agregar("A");
+
+            lista.Agregar("B");
+            lista.Agregar("C");
+            lista.Agregar("D");
+            lista.Agregar("E");
+
+            Console.WriteLine(lista.ObtenerValores());
+
+            lista.Eliminar("C");
+
+            Console.WriteLine();
+            Console.WriteLine(lista.ObtenerValores());
         }
     }
 }
